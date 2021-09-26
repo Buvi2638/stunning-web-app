@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+#header-wrapper{
+    margin: 0px;
+    display: flex;
+	align-items: center;
+	justify-content: space-between;  
+    cursor: pointer;
+}
+
+
+
+a:hover {
+    text-decoration: underline;
+    text-decoration-color: #8071D0;
+    text-decoration-thickness:5px ;
+    font-weight: 900;
+}
+.your-account{
+   border:1px solid #FFD8DB;
+   padding: 14px 15px;
+   font-size: 15px;
+   font-weight: 500;
+   border-radius: 20px;
+   background-color: #FFD8DB;
+   color:  #7b45d1;
+}
+
+#main-wrapper{
+    padding: 14px 15px;
+    display: flex;
+    justify-content: center; 
+    padding-left: 100px;
+}
+
+
+.heading{
+font-size: 50px;
+font-family:'Poppins', sans-serif ;
+}
+.new-account{
+    display: flex;
+    cursor: pointer;
+}
+#button{
+    border: 1px solid #5243C0;
+    color: white;
+    background-color: #5243C0; 
+    border-radius: 15px;
+    text-align: center;  
+    padding:10px ;
+    margin-left: 20px;
+}
+
+#checkbox{
+    padding: 30px;
+      }
+article:hover{
+    
+    
+    border-radius: 20px;
+    color: rgb(157, 114, 197);
+    box-shadow: 0 5px 10px rgb(124, 109, 109);
+
+}
+
+.checkbox-wrapper{
+    border: 1px solid #fcfbff;
+    margin: 10px;
+    border-radius: 20px;
+    width: 280px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
